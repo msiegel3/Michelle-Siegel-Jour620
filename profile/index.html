@@ -1,0 +1,91 @@
+<!doctype HTML>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Beltway Plaza fights for survival in a post-mall America</title>
+        <meta name="description" content="Written and Designed by Michelle Siegel">
+        <meta name="author" content="Michelle Siegel">
+    <!-- Google Font CSS -->
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- Load c3.css -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+    <!-- Load our CSS -->
+      <link href="style.css" type="text/css" rel="stylesheet" >
+    <!-- Load d3.js and c3.js -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+  </head>
+  <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12 px-0">
+            <img src="banner.png" alt="Banner" class="heroimage d-flex align-items-center"><br>
+            <div class="bulk">
+              <p>The Beltway Plaza Mall may have weathered through the Great Recession of the late 2000s and early 2010s, but some major changes may be required if it is to overcome its latest challenger: the American retail apocalypse.</p>
+              <p>According to a <a href="https://www2.deloitte.com/us/en/insights/industry/retail-distribution/the-consumer-is-changing.html">report</a> from professional services network Deloitte, on-mall shopping decreased 7.6% in 2018 year-over-year. This decline has been devastating for malls, with financial services company Credit Suisse <a href="https://www.businessinsider.com/a-quarter-of-shopping-malls-will-close-according-to-credit-suisse-2017-5">forecasting</a> in 2017 that between 20% and 25% of American malls would close within five years.</p>
+              <div class="graphic-container">
+                <h3>220-275 malls expected to close 2017-2022</h3>
+                <p>There were around 1,100 malls in America in 2017. That number could fall by 2022 to anywhere between 825 and 880.</p>
+                <div id="storesClosingBar"></div>
+                <em>Source: Credit Suisse.</em>
+              </div>
+              <p>Though popular assumption puts the blame on Amazon and other online shopping hotspots, SiteWorks Retail Real Estate Services President Nick Egelanian argues that the death of malls in America has far more to do with the reckless development and expansion of malls in the mid-1900s — an era which could not have foreseen the rise of strip centers, populated by “category killer” stores that specialize in discount sales of a particular category of merchandise.</p>
+              <p>“Pretty much every department that was in a department store now has an equivalent strip center store,” Egelanian said. “All the way from the obvious things, like linens, and electronics, and toys — y’know, with Toys “R” Us, and Bed Bath & Beyond, and Best Buy — but also, things not so obvious — card stores, bridal stores … so, there was a complete deconstruction of the department store model.”</p>
+              <p>According to Egelanian, though most of the malls that remain open today cannot survive “as the kind of centers they were,” the properties themselves still have futures — so long as their managers take the appropriate measures to evolve with the times.</p>
+              <p>“The very nature of shopping has changed, but good real estate is generally good real estate,” Egelanian said. “Most of these were built on very good roads at very good intersections with high traffic, and so while they might not have use for the uses they were originally built for, most of them will have very productive uses in the future.”</p>
+              <p>The GB Mall Limited Partnership, which includes Beltway Plaza Mall property manager Quantum Companies, has taken the initiative of applying for redevelopment. The Beltway Plaza Preliminary Plan of Subdivision, which outlines a plan to transform Beltway Plaza Mall into a mixed-use development containing both residential units and retail space, was approved by the Prince George’s County Planning Board on February 20, after a 5-2 vote of support from the Greenbelt City Council at their regular meeting on February 10.</p>
+              <p>“We believe that in order to ensure that the retail at Beltway Plaza remains vibrant, dynamic and durable for the future, we must add customers right on the property,” said Quantum Companies General Counsel Marc Kapastin.</p>
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I had the chance to get some insight into Beltway Plaza Mall&#39;s redevelopment plans from Quantum Companies General Counsel Marc Kapastin. (1/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399847498854406?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kapastin predicted that in 10 to 15 years, Beltway Plaza Mall will be home to diverse types of housing, including senior residences and workforce housing. (3/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399849428041728?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Quantum Companies would also &quot;love&quot; for Beltway Plaza Mall to have civic uses, medical services and some office space, Kapastin said. (5/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399851047215106?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+              <p>Councilmembers Silke Pope, Judith Davis, Leta Mach and Edward Putens, along with Mayor Pro Tem Emmett Jordan, voted in support of the plan and its attached staff conditions on February 10.</p>
+              <p>“If nothing is done, and this mall and its property is not re-developed, it will be a dead strip mall in the not so far future, and that would be devastating for our city and our residents,” Pope said in an email.</p>
+              <p>Councilmember Rodney Roberts and Mayor Colin Byrd voted against supporting the PPS. Throughout the meeting, Roberts stressed that the inadequacies he saw in the PPS were not sufficiently addressed by the attached staff conditions.</p>
+              <p>Byrd was relatively quiet at the meeting, but readily voiced his opinions on the PPS in an email.</p>
+              <p>“The bottom line is, if this development happens, it's going to cost the public sector money to serve these new Greenbelt families,” Byrd said in an email. “And, if the developers aren't going to give the city and the county the resources to do that, I'll probably remain opposed to the project.”</p>
+              <p>Next up for the Beltway Plaza Mall redevelopment is a Detailed Site Plan, which will elaborate on plans for housing types and internal road systems.</p>
+              <p>“We’re more than a shopping center,” Kapastin said. “That’s one of the themes that we’re going to pursue over the next several months, just to let everybody understand that Beltway Plaza is a community center as well as a retail center — an amenity for the community.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- c3 script -->
+        <script type="text/javascript">
+
+
+       //CHART 1
+             var chart1 = c3.generate({
+             bindto: '#storesClosingBar',
+             data: {
+               type: 'bar',
+               columns: [
+                 ['2017', 1100, 1100],
+                 ['2022', 880, 825],
+               ],
+             },
+             color: {
+               pattern: ['#ed252d', '#0060af']
+             },
+             axis: {
+                  x: {
+                      type: 'category',
+                      categories: ['20% closed', '25% closed']
+                  }
+              }
+             });
+        </script>
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+</html>

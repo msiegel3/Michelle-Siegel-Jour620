@@ -1,0 +1,67 @@
+a {
+  color: #ed252d;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #999999 !important;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0060af;
+  text-decoration: none;
+}
+
+body {
+  color: #444;
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.bulk {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.twitter-tweet {
+  margin: 0 auto;
+}
+
+.c3 text {
+  font-family: 'Oswald';
+}
+
+.col-sm-12 {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+.graphic-container {
+  font-family: 'Oswald';
+  padding-bottom: 20px;
+}
+
+.heroimage {
+  width: 100%;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+#heroimage {
+  color: #999;
+  font-style: italic;
+  margin-bottom: 100px;
+}

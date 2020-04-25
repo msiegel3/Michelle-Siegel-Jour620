@@ -78,6 +78,11 @@ body {
   width: 100%;
 }
 
+.singletary_audio {
+  width: 400px;
+  margin: 0 auto;
+}
+
 #byline {
   font-size: 1.25em;
   font-weight: 700;

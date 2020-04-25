@@ -20,46 +20,63 @@
     <!-- Load d3.js and c3.js -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="green-audio-player-master/dist/css/green-audio-player.min.css">
   </head>
   <body>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12 px-0">
-            <img src="banner.png" alt="Banner" class="heroimage d-flex align-items-center"><br>
             <div class="bulk">
-              <p>The Beltway Plaza Mall may have weathered through the Great Recession of the late 2000s and early 2010s, but some major changes may be required if it is to overcome its latest challenger: the American retail apocalypse.</p>
-              <p>According to a <a href="https://www2.deloitte.com/us/en/insights/industry/retail-distribution/the-consumer-is-changing.html">report</a> from professional services network Deloitte, on-mall shopping decreased 7.6% in 2018 year-over-year. This decline has been devastating for malls, with financial services company Credit Suisse <a href="https://www.businessinsider.com/a-quarter-of-shopping-malls-will-close-according-to-credit-suisse-2017-5">forecasting</a> in 2017 that between 20% and 25% of American malls would close within five years.</p>
-              <div class="graphic-container">
-                <h3>220-275 malls expected to close 2017-2022</h3>
-                <p>There were around 1,100 malls in America in 2017. That number could fall by 2022 to anywhere between 825 and 880.</p>
-                <div id="storesClosingBar"></div>
-                <em>Source: Credit Suisse.</em>
+              <div id="headline">“It’s not fine art, but it sure is fun art!”</div>
+              <div id="deckline">Local artist offers free art classes for seniors</div>
+              <div id="byline">By Michelle Siegel</div>
+              <img src="classroom.jpg" alt="Classroom" class="bodyimage d-flex align-items-center">
+              <div class="photocaption">Local artist Brenda Singletary taught a series of free art classes to seniors in the back room of The Art Factory in Fall 2019.</div>
+              <p>Last year, local artist Brenda Singletary took a look around the Adrian area and had an epiphany.</p>
+              <p>“There were a lot of programs for children, and programs for kids in school, but there weren’t a lot of things available for seniors, especially with a limited income,” said Singletary, 65.</p>
+              <p>Rather than allowing the observation to fade from her mind, Singletary took action, setting up a series of art classes for senior citizens.</p>
+              <p>Singletary had the qualifications to be an art instructor, having spent a year teaching at the College for Creative Studies in Detroit. She already had the facility she would need, as well: the back room of The Art Factory, her Downtown Adrian art studio. And as for cost-effective supplies? Hobby Lobby was always there, as were the local thrift stores.</p>
+              <p>Just like that, everything fell into place. Singletary held her first set of classes for seniors last fall — and participation was free.</p>
+              <p>“Most seniors have a fixed income,” Singletary explained. “And a lot of the classes can be pretty pricey. And for the ones who really want the classes and could not afford them, I want to make sure that they had an option.”</p>
+              <p>The art classes primarily entailed drawing and various forms of painting, with students working with texture on canvas, on paper with pastels and with watercolors.</p>
+              <p>“We might do art skins, and that's putting paint — acrylic paint, when it dries — pull it up and put it on something else,” Singletary said. “We might paint on plastic with acrylic, then we take the plastic sheets that are recycled from plastic bags, and we might make lamp covers with them, or just different things like that … to let them know what they can do with just a little bit of training, what they can accomplish. We try to inspire them, and just… make them aware of the art that’s all around them by just doing the simple things that they can adapt and take home — put on the wall — and just be proud to say they’ve done this themselves.”</p>
+              <p>Sharon Fry, a 76-year-old retiree and Adrian resident, spoke highly about her experience as a student in Singletary’s fall classes.</p>
+              <p>“I love going to the gallery and just being with the other ladies,” Fry said. “It's just enriched and broadened my life. … I've been really, really happy with the whole thing, and … it's just something that I tremendously enjoy that I had never done before.”</p>
+              <p>According to Fry, Singletary’s unique personality was key to her enjoyment of the experience.</p>
+              <p>“She just sounded so bright and cheery and inspiring on the phone when I talked to her … I found out that she was every bit as bright and cheery and inspiring as she sounded on the phone when I went to the first class,” Fry said of Singletary. “You know, everybody's busy, and everybody's stressed ... but ... even when she's stressed about something, she's so encouraging.”</p>
+              <p>Singletary’s support enabled Fry to discover the joy of creativity, Fry said.</p>
+              <p>“It’s just so much fun, because the rules are do what you like, and do the best you can and use anything you want,” Fry explained. “It’s not fine art, but it sure is fun art.”</p>
+              <div class="chapterheadline">About the Artist</div>
+              <img src="singletary_and_her_work.jpg" alt="Singletary and her work." class="bodyimage d-flex align-items-center">
+              <div class="photocaption">Local artist Brenda Singletary stands next to some of her artwork.</div>
+              <div class="singletary_audio">
+                  <audio>
+                      <source src="singletary_audio.mp3" type="audio/mpeg">
+                  </audio>
               </div>
-              <p>Though popular assumption puts the blame on Amazon and other online shopping hotspots, SiteWorks Retail Real Estate Services President Nick Egelanian argues that the death of malls in America has far more to do with the reckless development and expansion of malls in the mid-1900s — an era which could not have foreseen the rise of strip centers, populated by “category killer” stores that specialize in discount sales of a particular category of merchandise.</p>
-              <p>“Pretty much every department that was in a department store now has an equivalent strip center store,” Egelanian said. “All the way from the obvious things, like linens, and electronics, and toys — y’know, with Toys “R” Us, and Bed Bath & Beyond, and Best Buy — but also, things not so obvious — card stores, bridal stores … so, there was a complete deconstruction of the department store model.”</p>
-              <p>According to Egelanian, though most of the malls that remain open today cannot survive “as the kind of centers they were,” the properties themselves still have futures — so long as their managers take the appropriate measures to evolve with the times.</p>
-              <p>“The very nature of shopping has changed, but good real estate is generally good real estate,” Egelanian said. “Most of these were built on very good roads at very good intersections with high traffic, and so while they might not have use for the uses they were originally built for, most of them will have very productive uses in the future.”</p>
-              <p>The GB Mall Limited Partnership, which includes Beltway Plaza Mall property manager Quantum Companies, has taken the initiative of applying for redevelopment. The Beltway Plaza Preliminary Plan of Subdivision, which outlines a plan to transform Beltway Plaza Mall into a mixed-use development containing both residential units and retail space, was approved by the Prince George’s County Planning Board on February 20, after a 5-2 vote of support from the Greenbelt City Council at their regular meeting on February 10.</p>
-              <p>“We believe that in order to ensure that the retail at Beltway Plaza remains vibrant, dynamic and durable for the future, we must add customers right on the property,” said Quantum Companies General Counsel Marc Kapastin.</p>
-              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I had the chance to get some insight into Beltway Plaza Mall&#39;s redevelopment plans from Quantum Companies General Counsel Marc Kapastin. (1/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399847498854406?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Kapastin predicted that in 10 to 15 years, Beltway Plaza Mall will be home to diverse types of housing, including senior residences and workforce housing. (3/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399849428041728?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Quantum Companies would also &quot;love&quot; for Beltway Plaza Mall to have civic uses, medical services and some office space, Kapastin said. (5/5)</p>&mdash; Michelle Siegel (@bpmstory) <a href="https://twitter.com/bpmstory/status/1239399851047215106?ref_src=twsrc%5Etfw">March 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-              <p>Councilmembers Silke Pope, Judith Davis, Leta Mach and Edward Putens, along with Mayor Pro Tem Emmett Jordan, voted in support of the plan and its attached staff conditions on February 10.</p>
-              <p>“If nothing is done, and this mall and its property is not re-developed, it will be a dead strip mall in the not so far future, and that would be devastating for our city and our residents,” Pope said in an email.</p>
-              <p>Councilmember Rodney Roberts and Mayor Colin Byrd voted against supporting the PPS. Throughout the meeting, Roberts stressed that the inadequacies he saw in the PPS were not sufficiently addressed by the attached staff conditions.</p>
-              <p>Byrd was relatively quiet at the meeting, but readily voiced his opinions on the PPS in an email.</p>
-              <p>“The bottom line is, if this development happens, it's going to cost the public sector money to serve these new Greenbelt families,” Byrd said in an email. “And, if the developers aren't going to give the city and the county the resources to do that, I'll probably remain opposed to the project.”</p>
-              <p>Next up for the Beltway Plaza Mall redevelopment is a Detailed Site Plan, which will elaborate on plans for housing types and internal road systems.</p>
-              <p>“We’re more than a shopping center,” Kapastin said. “That’s one of the themes that we’re going to pursue over the next several months, just to let everybody understand that Beltway Plaza is a community center as well as a retail center — an amenity for the community.”</p>
+              <br>
+              <p>Singletary characterizes herself as an “interdisciplinary” artist, using different materials and working with different processes to explore different modes of self-expression.</p>
+              <p>Singletary was born and raised in Detroit, and became interested in art as a child.</p>
+              <p>“My father, on Sunday mornings, before we went to Sunday school, he would pull out the Sunday paper — that’s when they had the “funnies,” they called them, y’know, the comics — and he would imitate certain characters … and he would sit at the table and just draw them,” Singletary said. “I would imitate him, and I realized that I could do it better than my three sisters could do it.”</p>
+              <p>Seeing this talent, her grade school art teacher put her in a special art program in Detroit, which further cultivated her passion for the craft.</p>
+              <p>Singletary went on to receive a Bachelor of Arts from Morris Brown College in Atlanta and a Master of Fine Arts in Interdisciplinary Arts from Goddard College in Plainfield, Vermont. She lived in the Atlanta area for over 40 years. Originally, she worked in television broadcasting, but when she found herself losing interest in the occupation, she decided to forge a career in art.</p>
+              <p>The artworks that resulted, according to Singletary’s website, “are included in museums, art galleries, college/universities, and corporations such as AT&T, Ford Foundation, McDonald’s Inc., Fox Television, Marriott, Kaiser-Permanente and many private collections.”</p>
+              <p>In 2007, she was profiled by The HistoryMakers, a nonprofit educational institution that prides itself as “the single largest collection of African American first-person video oral history testimony in the world.”</p>
+              <p>“Collectors of Singletary’s work include Andrew Young, Hank Aaron, Terry McMillan, Thurbert Baker and Marion Wright Edelman,” reads the biography that The HistoryMakers prepared on Singletary. “She has been presented with the American Express Cultural Arts Award, the Golden Sable Award from the United Negro College Fund, and the Daimler-Chrysler Motion through Expression Art Competition Award.”</p>
+              <p>When Singletary’s father fell ill a few years ago, she moved back to Michigan to support him. Once here, she reconnected with a former classmate, Town Money Saver publisher Mike Johnson. They married in 2017, and now live in Adrian, where Singletary’s artwork and community service are appreciated by local residents.</p>
+              <p>“I think she has a real vibrancy about her — a vitality about her — that really encourages people to be creative,” said Suzanne Schreiber, who coordinates the local INAI Gallery as a ministry of the Adrian Dominican Sisters. “She's teaching senior citizens and bringing out the creativity in these senior citizens who are looking for a place to go and to be in a place with other people. … I think when you get together with others and do art, it kind of generates your own creativity.”</p>
+              <img src="gallery_the_art_factory.jpg" alt="The Art Factory" class="bodyimage d-flex align-items-center">
+              <div class="photocaption">The Art Factory is located at 209 N. Main St., with an entrance on Washburn Street, across from the back side of Sauce Italian Grill & Pub. For more information about The Art Factory — or to contact Brenda Singletary — visit <a>bsingletary.com.</div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- c3 script -->
+        <script src="green-audio-player-master/dist/js/green-audio-player.js"></script>
         <script type="text/javascript">
 
-
+        new GreenAudioPlayer('.singletary_audio');
        //CHART 1
              var chart1 = c3.generate({
              bindto: '#storesClosingBar',

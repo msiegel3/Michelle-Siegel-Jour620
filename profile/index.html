@@ -50,7 +50,7 @@
               <img src="singletary_and_her_work.jpg" alt="Singletary and her work." class="bodyimage d-flex align-items-center">
               <div class="photocaption">Local artist Brenda Singletary stands next to some of her artwork.</div>
               <div class="singletary_audio">
-                  <audio>
+                  <audio crossorigin preload="none">
                       <source src="singletary_audio.mp3" type="audio/mpeg">
                   </audio>
               </div>
@@ -74,29 +74,10 @@
 
       <!-- c3 script -->
         <script src="green-audio-player-master/dist/js/green-audio-player.js"></script>
-        <script type="text/javascript">
-
-        new GreenAudioPlayer('.singletary_audio');
-       //CHART 1
-             var chart1 = c3.generate({
-             bindto: '#storesClosingBar',
-             data: {
-               type: 'bar',
-               columns: [
-                 ['2017', 1100, 1100],
-                 ['2022', 880, 825],
-               ],
-             },
-             color: {
-               pattern: ['#ed252d', '#0060af']
-             },
-             axis: {
-                  x: {
-                      type: 'category',
-                      categories: ['20% closed', '25% closed']
-                  }
-              }
-             });
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              new GreenAudioPlayer('.singletary_audio', { showTooltips: true, showDownloadButton: false, enableKeystrokes: true });
+          });
         </script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
